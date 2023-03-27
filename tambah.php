@@ -47,7 +47,7 @@ stok, gambar) ';
                     <select name="kategori">
                         <option value="Komputer">Komputer</option>
                         <option value="Elektronik">Elektronik</option>
-                        <option value="Hand Phone">Hand Phone</option>
+                        <option value="Hand Phone">HandPhone</option>
                     </select>
                 </div>
                 <div class="input">
