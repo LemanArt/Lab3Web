@@ -20,7 +20,7 @@
    stok int(4)
    );
    ```
-   Hasil<br>
+   <b>Hasil</b><br>
    ![Gambar1](img/buatTabel.png)
 3. Menambahkan Data
    ```sql
@@ -31,7 +31,7 @@
    ('Elektronik', 'HP Xiaomi Android', 'hp_xiaomi.jpg', 1000000, 1400000, 5),
    ('Elektronik', 'HP OPPO Android', 'hp_oppo.jpg', 1800000, 2300000, 5);
    ```
-   Hasil<br>
+   <b>Hasil</b><br>
    ![Gambar1](img/tambahData.png)
 
 ---
@@ -51,7 +51,7 @@
            die();
        } else echo "Koneksi berhasil";
    ```
-   Hasil<br>
+   <b>Hasil</b><br>
    ![Gambar1](img/koneksi.png)<br>
 2. Membuat file index untuk menampilkan data (Read)
 
@@ -109,7 +109,7 @@
    </body>
    ```
 
-   Hasil<br>
+   <b>Hasil</b><br>
    ![Gambar1](img/tampildata.png)
 
 3. Menambah Data (Create)
@@ -195,5 +195,5 @@
    </html>
    ```
 
-   Hasil<br>
+   <b>Hasil</b><br>
    ![Gambar1](img/tambah.png)
