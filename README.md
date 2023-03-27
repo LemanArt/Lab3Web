@@ -33,3 +33,23 @@
    ```
    Hasil<br>
    ![Gambar1](img/tambahData.png)
+
+---
+
+## Membuat Program CRUD
+
+1. membuat file koneksi
+   ```php
+   <?php
+       $host = "localhost";
+       $user = "root";
+       $pass = "";
+       $db = "latihan1";
+       $conn = mysqli_connect($host, $user, $pass, $db);
+       if ($conn == false) {
+           echo "Koneksi ke server gagal.";
+           die();
+       } else echo "Koneksi berhasil";
+   ```
+   Hasil<br>
+   ![Gambar1](img/koneksi.png)<br>
