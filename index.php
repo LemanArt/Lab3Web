@@ -17,7 +17,7 @@ $result = mysqli_query($conn, $sql);
     <div class="container">
         <h1>Data Barang</h1>
         <div class="main">
-            <a href='tambah.php?nama=".$row["nama"]."'>Tambah Data</a>
+            <a href='tambah.php'>Tambah Data</a>
             <table border="1px">
                 <tr>
                     <th>Gambar</th>
