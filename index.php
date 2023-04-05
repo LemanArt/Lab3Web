@@ -37,7 +37,7 @@ $result = mysqli_query($conn, $sql);
                             <td><?= $row['harga_beli']; ?></td>
                             <td><?= $row['harga_jual']; ?></td>
                             <td><?= $row['stok']; ?></td>
-                            <td><a href='edit.php?nama=".$row["nama"]."'>Edit</a> | <a href='delete.php?nama=".$row["nama"]."'>Delete</a></td>
+                            <td><a href='ubah.php'>Ubah</a> | <a href='delete.php?nama=".$row["nama"]."'>Delete</a></td>
                         </tr>
                     <?php endwhile;
                 else : ?>
